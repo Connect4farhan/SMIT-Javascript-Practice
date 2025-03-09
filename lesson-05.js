@@ -1,16 +1,16 @@
 //----------********** Data Modeling **********----------
 
 
-var product = {
-  id: 101,
-  title: "wirless headphonephone ",
-  variations: [
-    { id: 1, color: "black", price: 500, quantity: 4 },
-    { id: 2, color: "red", price: 1000, quantity: 2 },
-    { id: 3, color: "green", price: 1500, quantity: 1 },
-    { id: 4, color: "gold", price: 2000, quantity: 10 },
-  ],
-};
+// var product = {
+//   id: 101,
+//   title: "wirless headphonephone ",
+//   variations: [
+//     { id: 1, color: "black", price: 500, quantity: 4 },
+//     { id: 2, color: "red", price: 1000, quantity: 2 },
+//     { id: 3, color: "green", price: 1500, quantity: 1 },
+//     { id: 4, color: "gold", price: 2000, quantity: 10 },
+//   ],
+// };
 
 // console.log(product.variations[1].price);
 // console.log(product.variations.length)
@@ -85,27 +85,94 @@ var product = {
 // //-------------------------------------------------------------------------
 
 
-var students = [
-  {
-    id: 101,
-    name: "ali",
-    marks: 80,
-    pass: true,
-  },
-  {
-    id: 102,
-    name: "ahmed",
-    marks: 30,
-    pass: false,
-  },
-  {
-    id: 103,
-    name: "zubair",
-    marks: 90,
-    pass: true,
-  },
-];
+// var students = [
+//   {
+//     id: 101,
+//     name: "ali",
+//     marks: 80,
+//     pass: true,
+//   },
+//   {
+//     id: 102,
+//     name: "ahmed",
+//     marks: 30,
+//     pass: false,
+//   },
+//   {
+//     id: 103,
+//     name: "zubair",
+//     marks: 90,
+//     pass: true,
+//   },
+// ];
 
-console.log(students[0].id + "  " + students[0].name + "  " + students[0].pass);
-console.log(students[1].id);
-console.log(students[2].id);
+// console.log(students[0].id + "  " + students[0].name + "  " + students[0].pass);
+// console.log(students[1].id);
+// console.log(students[2].id);
+
+
+// //-------------------------------------------------------------------------
+// -----**** key: value ***-----
+
+// var s1 = { 
+//     name: "ali",
+//     marks: 80,
+//     pass: true
+// }
+
+// var s2 = {
+//     name: "ahmed",
+//     marks: 30,
+//     pass: false
+// }
+
+// var s3 = {
+//     name: "zubair",
+//     marks: 90,
+//     pass: true
+// }
+
+// console.log(s1.marks)
+// console.log(s2.marks)
+// console.log(s3.marks)
+
+// console.log(s2)
+// console.log(s3)
+
+// //-------------------------------------------------------------------------
+
+
+// var names = ['ali', 'ahmed', 'zubair']
+// var marks = [80, 30, 90];
+// var pass = [true, false, true]
+// var arr = ['ali', 30, true]
+
+
+// console.log(names)
+// console.log(marks)
+// console.log(pass)
+// console.log(arr)
+
+// //-------------------------------------------------------------------------
+// dynamic
+
+
+// var marks = [80, 60, 90, 40]
+// var index = 6;
+// marks[index] = 70
+// console.log(marks)
+// console.log(marks[index])
+
+// marks.push(20)
+// console.log(marks[1])
+
+//basic data types  (string, number, boolean)
+
+// var name = "ahmed";
+// console.log(name)
+
+// var marks = 20;
+// console.log(marks)
+
+// var pass = true;
+// console.log(pass)
